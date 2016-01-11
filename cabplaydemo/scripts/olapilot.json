@@ -1,0 +1,2352 @@
+[
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"03-11-2015",
+    "DURATION":4,
+    "TIMEIN":"9:16 PM",
+    "DATACONSUMED":0.46,
+    "MACADDRESS":"c0:ee:fb:30:e6:8c"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"03-11-2015",
+    "DURATION":32,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.31,
+    "MACADDRESS":"84:db:ac:58:e1:43"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"03-11-2015",
+    "DURATION":40,
+    "TIMEIN":"10:16 PM",
+    "DATACONSUMED":0.22,
+    "MACADDRESS":"58:a2:b5:e4:35:9a"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"03-11-2015",
+    "DURATION":86,
+    "TIMEIN":"6:16 PM",
+    "DATACONSUMED":0.21,
+    "MACADDRESS":"44:80:eb:e8:d5:3f"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"04-11-2015",
+    "DURATION":112,
+    "TIMEIN":"6:16 PM",
+    "DATACONSUMED":1.1,
+    "MACADDRESS":"80:01:84:29:e2:18"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"04-11-2015",
+    "DURATION":17,
+    "TIMEIN":"11:16 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"28:47:aa:23:6f:78"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"04-11-2015",
+    "DURATION":17,
+    "TIMEIN":"9:16 AM",
+    "DATACONSUMED":0.32,
+    "MACADDRESS":"5c:2e:59:85:20:63"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"04-11-2015",
+    "DURATION":16,
+    "TIMEIN":"12:16 PM",
+    "DATACONSUMED":0.39,
+    "MACADDRESS":"d0:33:11:28:84:12"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"05-11-2015",
+    "DURATION":32,
+    "TIMEIN":"11:16 PM",
+    "DATACONSUMED":0.4,
+    "MACADDRESS":"84:1b:5e:88:c4:6c"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"05-11-2015",
+    "DURATION":28,
+    "TIMEIN":"12:16 PM",
+    "DATACONSUMED":0.3,
+    "MACADDRESS":"80:c5:e6:8b:f4:1a"
+  },
+  {
+    "SSID":"OLA WIFI - 1",
+    "IMEI":911452150295443,
+    "TAXINO":"KA 04 AA 0034",
+    "DATE":"05-11-2015",
+    "DURATION":50,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"44:91:db:3b:94:62"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"03-11-2015",
+    "DURATION":42,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.4,
+    "MACADDRESS":"80:6c:1b:8e:d7:cf"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"03-11-2015",
+    "DURATION":158,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":2.2,
+    "MACADDRESS":"58:3f:54:d4:79:d8"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"03-11-2015",
+    "DURATION":55,
+    "TIMEIN":"10:16 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"58:48:22:43:d1:58"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"04-11-2015",
+    "DURATION":24,
+    "TIMEIN":"5:16 AM",
+    "DATACONSUMED":0.33,
+    "MACADDRESS":"00:ee:bd:c1:23:8a"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"04-11-2015",
+    "DURATION":48,
+    "TIMEIN":"11:16 AM",
+    "DATACONSUMED":0.21,
+    "MACADDRESS":"38:94:96:b9:6e:bf"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"04-11-2015",
+    "DURATION":85,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.39,
+    "MACADDRESS":"34:80:b3:1e:fa:b1"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"04-11-2015",
+    "DURATION":101,
+    "TIMEIN":"6:16 PM",
+    "DATACONSUMED":0.07,
+    "MACADDRESS":"80:6a:b0:dc:f5:8e"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"05-11-2015",
+    "DURATION":53,
+    "TIMEIN":"2:16 PM",
+    "DATACONSUMED":0.11,
+    "MACADDRESS":"c4:9a:02:3e:53:06"
+  },
+  {
+    "SSID":"OLA WIFI - 2",
+    "IMEI":911452150964261,
+    "TAXINO":"KA 04 D 6045",
+    "DATE":"05-11-2015",
+    "DURATION":75,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.09,
+    "MACADDRESS":"20:64:32:82:9f:3a"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"03-11-2015",
+    "DURATION":15,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":1.1,
+    "MACADDRESS":"90:3c:92:38:fb:64"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"03-11-2015",
+    "DURATION":42,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.17,
+    "MACADDRESS":"90:21:81:3d:d2:81"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"03-11-2015",
+    "DURATION":64,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.13,
+    "MACADDRESS":"a0:32:99:40:db:0d"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"04-11-2015",
+    "DURATION":29,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.37,
+    "MACADDRESS":"48:5a:3f:5f:5d:a4"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"04-11-2015",
+    "DURATION":36,
+    "TIMEIN":"1:16 PM",
+    "DATACONSUMED":0.42,
+    "MACADDRESS":"ec:88:92:a5:93:da"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"04-11-2015",
+    "DURATION":51,
+    "TIMEIN":"10:16 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"8c:77:16:ba:03:94"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"04-11-2015",
+    "DURATION":79,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":0.29,
+    "MACADDRESS":"d0:87:e2:da:c2:23"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"04-11-2015",
+    "DURATION":118,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"90:3c:92:8f:ec:f2"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"05-11-2015",
+    "DURATION":24,
+    "TIMEIN":"12:16 AM",
+    "DATACONSUMED":0.81,
+    "MACADDRESS":"14:30:c6:ea:f9:9e"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"05-11-2015",
+    "DURATION":44,
+    "TIMEIN":"4:16 AM",
+    "DATACONSUMED":0.22,
+    "MACADDRESS":"18:59:36:0d:27:06"
+  },
+  {
+    "SSID":"OLA WIFI - 4",
+    "IMEI":911452150965409,
+    "TAXINO":"KA 05 AE 3182",
+    "DATE":"05-11-2015",
+    "DURATION":18,
+    "TIMEIN":"10:22 PM",
+    "DATACONSUMED":0.27,
+    "MACADDRESS":"78:dd:08:de:b4:45"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"03-11-2015",
+    "DURATION":9,
+    "TIMEIN":"11:16 PM",
+    "DATACONSUMED":0.27,
+    "MACADDRESS":"3c:97:0f:0b:0d:17"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"03-11-2015",
+    "DURATION":41,
+    "TIMEIN":"2:16 PM",
+    "DATACONSUMED":0.26,
+    "MACADDRESS":"9c:d9:17:0c:98:c6"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"03-11-2015",
+    "DURATION":177,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":2.47,
+    "MACADDRESS":"3c:1e:04:24:ab:ee"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"04-11-2015",
+    "DURATION":20,
+    "TIMEIN":"9:16 PM",
+    "DATACONSUMED":0.09,
+    "MACADDRESS":"b8:5e:7b:f4:58:34"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"04-11-2015",
+    "DURATION":13,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.28,
+    "MACADDRESS":"18:f6:43:3f:75:f9"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"04-11-2015",
+    "DURATION":32,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.4,
+    "MACADDRESS":"6c:ad:f8:97:46:e2"
+  },
+  {
+    "SSID":"OLA WIFI - 7",
+    "IMEI":911452150405448,
+    "TAXINO":"KA 04 AA 1082",
+    "DATE":"04-11-2015",
+    "DURATION":61,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.32,
+    "MACADDRESS":"14:30:c6:3a:a5:13"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"03-11-2015",
+    "DURATION":21,
+    "TIMEIN":"11:16 AM",
+    "DATACONSUMED":0.08,
+    "MACADDRESS":"52:54:00:12:35:02"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"03-11-2015",
+    "DURATION":31,
+    "TIMEIN":"5:16 AM",
+    "DATACONSUMED":0.32,
+    "MACADDRESS":"14:f6:5a:63:61:43"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"03-11-2015",
+    "DURATION":39,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"3c:97:0f:ac:7b:d0"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"04-11-2015",
+    "DURATION":21,
+    "TIMEIN":"5:16 AM",
+    "DATACONSUMED":0.43,
+    "MACADDRESS":"00:f4:6f:c5:d7:63"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"04-11-2015",
+    "DURATION":35,
+    "TIMEIN":"11:16 AM",
+    "DATACONSUMED":0.44,
+    "MACADDRESS":"b8:98:f7:71:c7:33"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"04-11-2015",
+    "DURATION":39,
+    "TIMEIN":"2:16 PM",
+    "DATACONSUMED":0.03,
+    "MACADDRESS":"6c:5f:1c:ac:ce:91"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"04-11-2015",
+    "DURATION":98,
+    "TIMEIN":"8:16 AM",
+    "DATACONSUMED":0.7,
+    "MACADDRESS":"08:ec:a9:ef:90:31"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"04-11-2015",
+    "DURATION":167,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"68:48:98:eb:14:b4"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"05-11-2015",
+    "DURATION":4,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":1.6,
+    "MACADDRESS":"74:51:ba:62:c1:fd"
+  },
+  {
+    "SSID":"OLA WIFI - 8",
+    "IMEI":911452150503184,
+    "TAXINO":"KA 5O 9401",
+    "DATE":"05-11-2015",
+    "DURATION":90,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"0c:d2:b5:49:03:54"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"03-11-2015",
+    "DURATION":15,
+    "TIMEIN":"9:30 AM",
+    "DATACONSUMED":0.08,
+    "MACADDRESS":"9c:d9:17:33:d1:f5"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"03-11-2015",
+    "DURATION":3,
+    "TIMEIN":"8.19 PM",
+    "DATACONSUMED":0.07,
+    "MACADDRESS":"08:ec:a9:e5:e7:38"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"03-11-2015",
+    "DURATION":5,
+    "TIMEIN":"9.40 PM",
+    "DATACONSUMED":0.3,
+    "MACADDRESS":"90:21:81:68:3e:45"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"03-11-2015",
+    "DURATION":3,
+    "TIMEIN":"11.21 PM",
+    "DATACONSUMED":0.15,
+    "MACADDRESS":"f0:79:59:a5:dc:0c"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"04-11-2015",
+    "DURATION":137,
+    "TIMEIN":"10.50 AM",
+    "DATACONSUMED":1.4,
+    "MACADDRESS":"80:6c:1b:05:80:5b"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"04-11-2015",
+    "DURATION":68,
+    "TIMEIN":"5.20 PM",
+    "DATACONSUMED":0.45,
+    "MACADDRESS":"f8:a9:d0:90:53:21"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"04-11-2015",
+    "DURATION":20,
+    "TIMEIN":"6.51PM",
+    "DATACONSUMED":0.25,
+    "MACADDRESS":"ec:88:92:5d:66:87"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"05-11-2015",
+    "DURATION":12,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.22,
+    "MACADDRESS":"5c:51:88:a6:72:2e"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"05-11-2015",
+    "DURATION":31,
+    "TIMEIN":"8:16 AM",
+    "DATACONSUMED":0.12,
+    "MACADDRESS":"6c:f3:73:ae:aa:2a"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"05-11-2015",
+    "DURATION":43,
+    "TIMEIN":"2:16 PM",
+    "DATACONSUMED":0.11,
+    "MACADDRESS":"e0:2c:b2:fe:b0:ef"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"05-11-2015",
+    "DURATION":45,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":0.67,
+    "MACADDRESS":"3c:83:75:aa:4e:a4"
+  },
+  {
+    "SSID":"OLA WIFI - 9",
+    "IMEI":911452151239523,
+    "TAXINO":"KA 01 AC 6371",
+    "DATE":"05-11-2015",
+    "DURATION":57,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.18,
+    "MACADDRESS":"08:70:45:2b:58:29"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"03-11-2015",
+    "DURATION":2,
+    "TIMEIN":"10:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"00:08:22:78:d7:fb"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"03-11-2015",
+    "DURATION":12,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"2c:44:01:93:f2:48"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"03-11-2015",
+    "DURATION":28,
+    "TIMEIN":"2:16 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"44:00:10:01:61:46"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"03-11-2015",
+    "DURATION":39,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.03,
+    "MACADDRESS":"bc:79:ad:58:23:4d"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"03-11-2015",
+    "DURATION":77,
+    "TIMEIN":"9:16 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"1c:56:fe:17:62:2e"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"03-11-2015",
+    "DURATION":98,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.07,
+    "MACADDRESS":"e0:db:10:36:aa:d5"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"04-11-2015",
+    "DURATION":10,
+    "TIMEIN":"8:16 AM",
+    "DATACONSUMED":0.01,
+    "MACADDRESS":"00:00:00:00:00:00"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"04-11-2015",
+    "DURATION":21,
+    "TIMEIN":"10:16 AM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"00:26:82:59:e8:67"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"04-11-2015",
+    "DURATION":26,
+    "TIMEIN":"2:16 PM",
+    "DATACONSUMED":0.04,
+    "MACADDRESS":"94:ce:2c:7f:44:45"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"04-11-2015",
+    "DURATION":30,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":0.03,
+    "MACADDRESS":"bc:79:ad:74:85:f8"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"04-11-2015",
+    "DURATION":46,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"6c:3e:6d:5c:c4:48"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"04-11-2015",
+    "DURATION":125,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"30:a8:db:cf:5d:f2"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"05-11-2015",
+    "DURATION":17,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"b4:52:7d:1f:0a:83"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"05-11-2015",
+    "DURATION":27,
+    "TIMEIN":"2:16 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"a4:81:ee:eb:98:a8"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"05-11-2015",
+    "DURATION":33,
+    "TIMEIN":"6:16 PM",
+    "DATACONSUMED":0.01,
+    "MACADDRESS":"00:90:4c:2e:3e:42"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"05-11-2015",
+    "DURATION":82,
+    "TIMEIN":"9:16 AM",
+    "DATACONSUMED":0.18,
+    "MACADDRESS":"cc:89:fd:7f:79:0c"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"05-11-2015",
+    "DURATION":101,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.19,
+    "MACADDRESS":"84:10:0d:9f:91:fa"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"06-11-2015",
+    "DURATION":6,
+    "TIMEIN":"9:54 AM",
+    "DATACONSUMED":0.5,
+    "MACADDRESS":"e8:50:8b:4a:61:27"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"06-11-2015",
+    "DURATION":8,
+    "TIMEIN":"10:53 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"c0:ee:fb:28:1f:41"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"06-11-2015",
+    "DURATION":4,
+    "TIMEIN":"4:46 PM",
+    "DATACONSUMED":0.03,
+    "MACADDRESS":"9c:99:a0:84:a8:2b"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"06-11-2015",
+    "DURATION":19,
+    "TIMEIN":"9:26 PM",
+    "DATACONSUMED":0.09,
+    "MACADDRESS":"00:73:8d:af:88:ba"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"06-11-2015",
+    "DURATION":11,
+    "TIMEIN":"10:43 PM",
+    "DATACONSUMED":0.18,
+    "MACADDRESS":"1c:56:fe:17:db:8a"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"07-11-2015",
+    "DURATION":35,
+    "TIMEIN":"7:14 AM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"ec:88:92:73:49:ad"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"07-11-2015",
+    "DURATION":29,
+    "TIMEIN":"9:00 AM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"a0:86:c6:08:4d:f5"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"07-11-2015",
+    "DURATION":7,
+    "TIMEIN":"7:23 PM",
+    "DATACONSUMED":0.32,
+    "MACADDRESS":"48:5a:3f:44:29:3a"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"07-11-2015",
+    "DURATION":10,
+    "TIMEIN":"7:45 PM",
+    "DATACONSUMED":0.28,
+    "MACADDRESS":"00:ee:bd:77:3f:3f"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"08-11-2015",
+    "DURATION":80,
+    "TIMEIN":"9:53 AM",
+    "DATACONSUMED":0.07,
+    "MACADDRESS":"9c:d9:17:ba:d6:47"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"08-11-2015",
+    "DURATION":60,
+    "TIMEIN":"3:36 PM",
+    "DATACONSUMED":0.01,
+    "MACADDRESS":"00:ee:bd:78:15:0a"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"08-11-2015",
+    "DURATION":44,
+    "TIMEIN":"7:52 PM",
+    "DATACONSUMED":0.04,
+    "MACADDRESS":"d0:25:98:dc:52:73"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"08-11-2015",
+    "DURATION":17,
+    "TIMEIN":"10:20 PM",
+    "DATACONSUMED":0.28,
+    "MACADDRESS":"3c:91:57:50:51:95"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"08-11-2015",
+    "DURATION":2,
+    "TIMEIN":"11:41 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"fc:64:ba:ca:88:9f"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"09-11-2015",
+    "DURATION":24,
+    "TIMEIN":"12:16 AM",
+    "DATACONSUMED":0.04,
+    "MACADDRESS":"68:48:98:db:17:cc"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"09-11-2015",
+    "DURATION":10,
+    "TIMEIN":"1:14 AM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"5c:51:88:90:ab:e5"
+  },
+  {
+    "SSID":"OLA WIFI - 3",
+    "IMEI":911452151201226,
+    "TAXINO":"KA 04 AA 1085",
+    "DATE":"09-11-2015",
+    "DURATION":40,
+    "TIMEIN":"4:11 AM",
+    "DATACONSUMED":0.06,
+    "MACADDRESS":"48:86:e8:b7:51:20"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"03-11-2015",
+    "DURATION":3,
+    "TIMEIN":"7:16 AM",
+    "DATACONSUMED":0.11,
+    "MACADDRESS":"c8:1e:e7:05:ca:1a"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"03-11-2015",
+    "DURATION":11,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.05,
+    "MACADDRESS":"80:cf:41:67:5b:e8"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"03-11-2015",
+    "DURATION":37,
+    "TIMEIN":"4:16 AM",
+    "DATACONSUMED":0.07,
+    "MACADDRESS":"78:a8:73:36:b7:0b"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"03-11-2015",
+    "DURATION":56,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.07,
+    "MACADDRESS":"00:27:15:40:17:5b"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"04-11-2015",
+    "DURATION":14,
+    "TIMEIN":"11:16 PM",
+    "DATACONSUMED":0.11,
+    "MACADDRESS":"ec:1a:59:16:ff:c1"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"04-11-2015",
+    "DURATION":25,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"48:9d:24:20:20:fa"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"04-11-2015",
+    "DURATION":54,
+    "TIMEIN":"12:16 PM",
+    "DATACONSUMED":0.05,
+    "MACADDRESS":"08:d4:0c:20:b8:d6"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"04-11-2015",
+    "DURATION":48,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"c0:ee:fb:30:98:88"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"04-11-2015",
+    "DURATION":69,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"60:fe:1e:77:96:fa"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"05-11-2015",
+    "DURATION":4,
+    "TIMEIN":"7:16 AM",
+    "DATACONSUMED":0.35,
+    "MACADDRESS":"44:74:6c:13:88:59"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"05-11-2015",
+    "DURATION":32,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":0.19,
+    "MACADDRESS":"68:48:98:cd:5c:c4"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"05-11-2015",
+    "DURATION":37,
+    "TIMEIN":"11:16 AM",
+    "DATACONSUMED":0.3,
+    "MACADDRESS":"c0:ee:fb:3c:34:99"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"05-11-2015",
+    "DURATION":38,
+    "TIMEIN":"4:16 PM",
+    "DATACONSUMED":0.02,
+    "MACADDRESS":"88:a7:3c:ba:af:f3"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"05-11-2015",
+    "DURATION":64,
+    "TIMEIN":"6:16 PM",
+    "DATACONSUMED":0.14,
+    "MACADDRESS":"34:a3:95:b5:b3:af"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"06-11-2015",
+    "DURATION":8,
+    "TIMEIN":"12:27 PM",
+    "DATACONSUMED":0.04,
+    "MACADDRESS":"bc:4c:c4:d3:97:9b"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"06-11-2015",
+    "DURATION":35,
+    "TIMEIN":"5:02 AM",
+    "DATACONSUMED":0.22,
+    "MACADDRESS":"f0:db:e2:de:53:42"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"06-11-2015",
+    "DURATION":76,
+    "TIMEIN":"5:00 AM",
+    "DATACONSUMED":0.14,
+    "MACADDRESS":"90:21:81:4c:a2:b8"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"07-11-2015",
+    "DURATION":71,
+    "TIMEIN":"12:50 PM",
+    "DATACONSUMED":0.12,
+    "MACADDRESS":"44:00:10:61:43:d8"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"07-11-2015",
+    "DURATION":3,
+    "TIMEIN":"10:02 AM",
+    "DATACONSUMED":0.04,
+    "MACADDRESS":"bc:6e:64:7a:7f:d9"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"07-11-2015",
+    "DURATION":41,
+    "TIMEIN":"7:46 AM",
+    "DATACONSUMED":0.21,
+    "MACADDRESS":"c4:9a:02:3e:26:96"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"07-11-2015",
+    "DURATION":50,
+    "TIMEIN":"8:20 PM",
+    "DATACONSUMED":0.23,
+    "MACADDRESS":"bc:79:ad:71:aa:ab"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"07-11-2015",
+    "DURATION":40,
+    "TIMEIN":"5:00 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"44:80:eb:f0:bd:69"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"08-11-2015",
+    "DURATION":32,
+    "TIMEIN":"4:42 PM",
+    "DATACONSUMED":0.03,
+    "MACADDRESS":"9c:65:b0:b6:5e:7b"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"08-11-2015",
+    "DURATION":40,
+    "TIMEIN":"6:48 PM",
+    "DATACONSUMED":0.34,
+    "MACADDRESS":"0c:b3:19:a9:7e:43"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"08-11-2015",
+    "DURATION":34,
+    "TIMEIN":"11:56 AM",
+    "DATACONSUMED":0.28,
+    "MACADDRESS":"30:75:12:0d:dc:ed"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"08-11-2015",
+    "DURATION":30,
+    "TIMEIN":"8:53 PM",
+    "DATACONSUMED":0.24,
+    "MACADDRESS":"38:f8:89:b6:eb:9c"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"08-11-2015",
+    "DURATION":15,
+    "TIMEIN":"6:00 PM",
+    "DATACONSUMED":0.19,
+    "MACADDRESS":"d0:a6:37:85:3a:67"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"08-11-2015",
+    "DURATION":53,
+    "TIMEIN":"6:55 PM",
+    "DATACONSUMED":0.12,
+    "MACADDRESS":"1c:56:fe:9d:bb:23"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"09-11-2015",
+    "DURATION":47,
+    "TIMEIN":"4:59 AM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"10:92:66:e5:36:20"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"09-11-2015",
+    "DURATION":39,
+    "TIMEIN":"2:11 PM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"90:68:c3:4a:ed:2c"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"09-11-2015",
+    "DURATION":38,
+    "TIMEIN":"6:46 PM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"e8:15:0e:98:31:b8"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"09-11-2015",
+    "DURATION":46,
+    "TIMEIN":"9:38 AM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"dc:3e:f8:35:f4:d4"
+  },
+  {
+    "SSID":"OLA WIFI - 5",
+    "IMEI":911452150418029,
+    "TAXINO":"KA 04 AA 0032",
+    "DATE":"09-11-2015",
+    "DURATION":15,
+    "TIMEIN":"2:08 PM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"cc:fa:00:af:b2:3c"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"03-11-2015",
+    "DURATION":49,
+    "TIMEIN":"11:40 PM",
+    "DATACONSUMED":0.1,
+    "MACADDRESS":"90:67:1c:4b:8f:15"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"03-11-2015",
+    "DURATION":54,
+    "TIMEIN":"2:08 AM",
+    "DATACONSUMED":0.17,
+    "MACADDRESS":"5c:51:88:77:67:81"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"03-11-2015",
+    "DURATION":62,
+    "TIMEIN":"10:51 AM",
+    "DATACONSUMED":0.23,
+    "MACADDRESS":"dc:3e:f8:dc:7b:94"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"04-11-2015",
+    "DURATION":113,
+    "TIMEIN":"6:00 PM",
+    "DATACONSUMED":0.24,
+    "MACADDRESS":"84:2e:27:d1:c6:f9"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"04-11-2015",
+    "DURATION":38,
+    "TIMEIN":"6:23 PM",
+    "DATACONSUMED":0.18,
+    "MACADDRESS":"9c:d3:5b:3c:fe:7b"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"04-11-2015",
+    "DURATION":80,
+    "TIMEIN":"9:04 AM",
+    "DATACONSUMED":0.22,
+    "MACADDRESS":"a0:86:c6:48:4c:ce"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"04-11-2015",
+    "DURATION":22,
+    "TIMEIN":"10:35 AM",
+    "DATACONSUMED":0.06,
+    "MACADDRESS":"e4:90:7e:9a:e2:dd"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"05-11-2015",
+    "DURATION":18,
+    "TIMEIN":"11:53 AM",
+    "DATACONSUMED":0.14,
+    "MACADDRESS":"4c:7c:5f:24:1e:06"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"05-11-2015",
+    "DURATION":2,
+    "TIMEIN":"5:11 AM",
+    "DATACONSUMED":0.11,
+    "MACADDRESS":"cc:fe:3c:5d:b0:aa"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"05-11-2015",
+    "DURATION":66,
+    "TIMEIN":"9:58 AM",
+    "DATACONSUMED":0.15,
+    "MACADDRESS":"90:fd:61:5e:65:fc"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"06-11-2015",
+    "DURATION":11,
+    "TIMEIN":"8:20 AM",
+    "DATACONSUMED":0.24,
+    "MACADDRESS":"ca:ae:9c:81:ec:e8"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"06-11-2015",
+    "DURATION":27,
+    "TIMEIN":"3:33 AM",
+    "DATACONSUMED":0.35,
+    "MACADDRESS":"b8:5e:7b:e4:62:f1"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"06-11-2015",
+    "DURATION":40,
+    "TIMEIN":"2:05 PM",
+    "DATACONSUMED":0.25,
+    "MACADDRESS":"74:51:ba:cf:96:6c"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"06-11-2015",
+    "DURATION":19,
+    "TIMEIN":"10:35 AM",
+    "DATACONSUMED":0.01,
+    "MACADDRESS":"bc:e2:1f:2d:3a:72"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"06-11-2015",
+    "DURATION":42,
+    "TIMEIN":"9:06 AM",
+    "DATACONSUMED":0.15,
+    "MACADDRESS":"e8:50:8b:56:6d:0c"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"07-11-2015",
+    "DURATION":81,
+    "TIMEIN":"4:30 PM",
+    "DATACONSUMED":0.19,
+    "MACADDRESS":"74:e2:8c:d1:d5:a0"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"07-11-2015",
+    "DURATION":43,
+    "TIMEIN":"11:49 AM",
+    "DATACONSUMED":0.08,
+    "MACADDRESS":"9c:d3:5b:2c:ce:30"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"07-11-2015",
+    "DURATION":64,
+    "TIMEIN":"9:17 AM",
+    "DATACONSUMED":0.17,
+    "MACADDRESS":"14:f6:5a:60:4c:8b"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"07-11-2015",
+    "DURATION":33,
+    "TIMEIN":"2:33 AM",
+    "DATACONSUMED":0.16,
+    "MACADDRESS":"14:30:c6:c0:ad:4a"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"08-11-2015",
+    "DURATION":33,
+    "TIMEIN":"9:12 PM",
+    "DATACONSUMED":0.14,
+    "MACADDRESS":"18:59:36:0f:b2:a5"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"08-11-2015",
+    "DURATION":70,
+    "TIMEIN":"3:34 AM",
+    "DATACONSUMED":0.16,
+    "MACADDRESS":"3c:91:57:2b:d3:da"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"08-11-2015",
+    "DURATION":23,
+    "TIMEIN":"2:08 AM",
+    "DATACONSUMED":0.04,
+    "MACADDRESS":"c0:ee:fb:52:a5:97"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"08-11-2015",
+    "DURATION":49,
+    "TIMEIN":"8:50 AM",
+    "DATACONSUMED":0.26,
+    "MACADDRESS":"00:73:8d:df:78:78"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"09-11-2015",
+    "DURATION":35,
+    "TIMEIN":"12:45 PM",
+    "DATACONSUMED":0.13,
+    "MACADDRESS":"34:36:3b:a0:14:60"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"09-11-2015",
+    "DURATION":47,
+    "TIMEIN":"2:12 PM",
+    "DATACONSUMED":0.05,
+    "MACADDRESS":"90:fd:61:68:fe:52"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"09-11-2015",
+    "DURATION":6,
+    "TIMEIN":"5:25 AM",
+    "DATACONSUMED":0.12,
+    "MACADDRESS":"f0:79:59:18:74:cb"
+  },
+  {
+    "SSID":"OLA WIFI - 6",
+    "IMEI":911452150964287,
+    "TAXINO":"KA 04 D 7138",
+    "DATE":"09-11-2015",
+    "DURATION":15,
+    "TIMEIN":"10:51 AM",
+    "DATACONSUMED":0,
+    "MACADDRESS":"14:1f:ba:b1:35:f0"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"03-11-2015",
+    "DURATION":9,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.05,
+    "MACADDRESS":"14:f6:5a:f1:e5:a1"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"03-11-2015",
+    "DURATION":101,
+    "TIMEIN":"10:16 AM",
+    "DATACONSUMED":0.09,
+    "MACADDRESS":"b8:5e:7b:ce:a6:6c"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"03-11-2015",
+    "DURATION":109,
+    "TIMEIN":"5:16 PM",
+    "DATACONSUMED":0.06,
+    "MACADDRESS":"f8:32:e4:1c:7c:8c"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"04-11-2015",
+    "DURATION":21,
+    "TIMEIN":"10:16 PM",
+    "DATACONSUMED":0.27,
+    "MACADDRESS":"38:94:96:a3:0c:53"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"04-11-2015",
+    "DURATION":71,
+    "TIMEIN":"8:16 PM",
+    "DATACONSUMED":0.23,
+    "MACADDRESS":"c8:ae:9c:81:ed:4d"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"05-11-2015",
+    "DURATION":3,
+    "TIMEIN":"7:16 PM",
+    "DATACONSUMED":0.25,
+    "MACADDRESS":"e8:50:8b:cc:c3:67"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"05-11-2015",
+    "DURATION":32,
+    "TIMEIN":"4:16 AM",
+    "DATACONSUMED":0.12,
+    "MACADDRESS":"c4:9a:02:3f:23:31"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"05-11-2015",
+    "DURATION":40,
+    "TIMEIN":"2:16 PM",
+    "DATACONSUMED":0.05,
+    "MACADDRESS":"80:6c:1b:03:79:d6"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"05-11-2015",
+    "DURATION":135,
+    "TIMEIN":"3:16 PM",
+    "DATACONSUMED":0.28,
+    "MACADDRESS":"d4:0b:1a:3a:49:f9"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"06-11-2015",
+    "DURATION":61,
+    "TIMEIN":"4:13 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"80:6a:b0:9a:df:23"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"06-11-2015",
+    "DURATION":21,
+    "TIMEIN":"6:29 AM",
+    "DATACONSUMED":0.22,
+    "MACADDRESS":"90:21:81:01:8c:83"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"06-11-2015",
+    "DURATION":31,
+    "TIMEIN":"9:06 AM",
+    "DATACONSUMED":0.13,
+    "MACADDRESS":"34:aa:8b:f9:65:d1"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"06-11-2015",
+    "DURATION":39,
+    "TIMEIN":"8:30 PM",
+    "DATACONSUMED":0.15,
+    "MACADDRESS":"a0:32:99:0c:35:b6"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"07-11-2015",
+    "DURATION":21,
+    "TIMEIN":"4:09 AM",
+    "DATACONSUMED":0.13,
+    "MACADDRESS":"04:46:65:fb:46:30"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"07-11-2015",
+    "DURATION":35,
+    "TIMEIN":"2:46 AM",
+    "DATACONSUMED":0.46,
+    "MACADDRESS":"10:0b:a9:a5:c6:cc"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"07-11-2015",
+    "DURATION":39,
+    "TIMEIN":"9:01 AM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"7c:1d:d9:3f:6c:4c"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"07-11-2015",
+    "DURATION":98,
+    "TIMEIN":"8:19 PM",
+    "DATACONSUMED":0.31,
+    "MACADDRESS":"e4:90:7e:1c:c3:b4"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"08-11-2015",
+    "DURATION":12,
+    "TIMEIN":"6:30 AM",
+    "DATACONSUMED":0.5,
+    "MACADDRESS":"44:74:6c:af:26:ba"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"08-11-2015",
+    "DURATION":16,
+    "TIMEIN":"6:41 AM",
+    "DATACONSUMED":0.11,
+    "MACADDRESS":"00:ee:bd:e0:da:84"
+  },
+  {
+    "SSID":"OLA WIFI - 10",
+    "IMEI":911452151203248,
+    "TAXINO":"KA 04 AA 1083",
+    "DATE":"09-11-2015",
+    "DURATION":31,
+    "TIMEIN":"8:03 PM",
+    "DATACONSUMED":0.2,
+    "MACADDRESS":"44:80:eb:6a:5f:f2"
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  },
+  {
+    "SSID":"",
+    "IMEI":null,
+    "TAXINO":"",
+    "DATE":"",
+    "DURATION":null,
+    "TIMEIN":"",
+    "DATACONSUMED":null,
+    "MACADDRESS":""
+  }
+]

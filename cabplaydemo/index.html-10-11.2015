@@ -1,0 +1,530 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Cabplay Dashboard</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+      <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+      <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+      <!-- needs images, font... therefore can not be part of ui.css -->
+      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="bower_components/weather-icons/css/weather-icons.min.css">
+      <!-- end needs images -->
+      <link rel="stylesheet" type="text/css" href="css/ag-grid.css">
+      <link rel="stylesheet" type="text/css" href="css/theme-fresh.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <!-- Tabs Css-->
+      <!-- Tabs Css-->
+   </head>
+   <body ng-app="app" id="app" ng-controller="AppCtrl">
+      <div  data-ng-cloak="" data-ng-hide="isSpecificPage()">
+         <section data-ng-include=" 'views/header.html' " id="header" class="top-header"></section>
+         <aside data-ng-include=" 'views/nav.html' " id="nav-container"></aside>
+      </div>
+      <div class="view-container">
+         <section data-ng-view="" id="content"></section>
+      </div>
+      <!-- Google Maps JS Start-->     
+      <script src="https://maps.googleapis.com/maps/api/js"></script>    
+      <!-- Google Maps JS End-->         
+      <script src="http://www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+      <script src="scripts/vendor.js"></script>
+      <!-- Google Maps JS Start-->         
+      <script src="http://dylanfprice.github.io/angular-gm/1.0.0/angular-gm.js"></script>    
+      <!-- Google Maps JS End-->    
+      <script src="scripts/ui.js"></script>
+      <script src="scripts/ag-grid.js"></script>
+      <!-- Tabs JS-->
+      <script src="scripts/maplace-0.1.3.js"></script>     
+      <!-- Tabs JS-->    
+      <script type="text/javascript">
+         Parse.initialize("wK0yUEQAhOZWJLZFcNrH9TsOWKdJ1R3Yrz5rFyuS", "zlP1nJRLNbM2CPm4O0HssVYgOqROJxUUZsR3mUfO");
+         var module = angular.module("app", ["ngRoute","agGrid","AngularGM","ui.bootstrap"]);
+         module.config(["$routeProvider", function($routeProvider) {
+             return $routeProvider.when("/", {
+                 redirectTo: "/dashboard"
+             }).when("/dashboard", {
+                 templateUrl: "views/dashboard.html"
+             }).when("/signin", {
+                 templateUrl: "views/signin.html"
+            }).when("/users", {
+                templateUrl: "views/users.html"
+             }).otherwise({
+                 redirectTo: "/404"
+             })
+         }]).run(function($rootScope,$location) {    
+             $rootScope.$on("$locationChangeStart",function(event, next, current){
+                 console.log($location.path());
+                 
+                 if(Parse.User.current()) { 
+                     $('body').removeClass("body-special");
+                   var UserData = Parse.User.current();
+                   $rootScope.UserName = UserData.attributes.username;
+                   console.log("User already logged in");                      
+                 } else {     
+                     $('body').addClass("body-special");
+                     console.log("User already logout");                                                    
+                   $location.path("signin");           
+                 }
+             }) ;   
+         })            
+         module.controller("loginCtrl", ["$scope","$location","$timeout","$rootScope", function($scope,$location,$timeout,$rootScope) {
+              $scope.loginSubmit = function(loginfrm){
+                $scope.login_submit = true;
+                  if(loginfrm.$valid){ 
+                    if(($scope.login.username != '') && ($scope.login.password != '')) {
+         
+                      // Get data from the form and put them into variables
+                      var username = $scope.login.username;
+                      var password = $scope.login.password;
+         
+                      // Call Parse Login function with those variables
+                      Parse.User.logIn(username, password, {
+                      // If the username and password matches
+                      success: function(user) {
+                        $timeout(function() {
+                           $location.path("/dashboard");
+                        }, 1000);                 
+                      },
+                      // If there is an error
+                      error: function(user, error) {
+                      $scope.$apply(function(){
+                        $scope.invalidShow = true;                 
+                        $scope.invalid1 = error.message;                            
+                        console.log(error);
+                        });
+                      }
+                      });
+                  }           
+               }
+           }   
+         }]);
+         module.controller("AppCtrl", function($scope, $http,$location) {
+         
+             return $scope.isSpecificPage = function() {
+                 var path;
+                 return path = $location.path(), _.contains(["/signin"], path)
+             }, $scope.main = {
+                 brand: "Cabplay",
+                 name: "Jash"
+             }
+           
+         }).directive("logoutUser", ["$timeout", function($timeout) {
+             return {
+                 restrict: "A",
+                 link: function(scope, element) {
+                    
+                   element.bind('click', goBack);     
+                   function goBack(){
+                     console.log("Performing logout");
+                     //logout current user
+                     if(Parse.User.current()) {
+                       Parse.User.logOut();
+                           console.log("User going to logout");                      
+                         // check if really logged out
+                         if(Parse.User.current()) {
+                           console.log("Failed to log out!");
+                         }
+                    //$timeout(function() {
+                       //$location.path('/');
+                       window.location.href = "http://cabplay.com/cabdemo/#/pages/signin";                      
+                    //}, 2000);  
+                    } else {    
+                    console.log("User already logout");                                                                                             
+                    }
+                   }            
+                 }
+             }
+         }]);
+         
+          module.controller("DashboardCtrl", function($scope, $http,$location,$timeout) {
+         
+             var mapData = [];
+                   var userObj = {};
+             
+            // var mapGraphData = [];
+             var maplace = [];
+             var mapGraphObj = {"title": "Wifi Devices","type": "marker","locations": []}
+             
+                 
+             var columnDefs = [
+             
+             
+             {headerName: "Data Consumed (KB)", field: "data_consumed", width: 150},
+             {headerName: "Duration (Minutes)", field: "Duration", width: 140},
+             {headerName: "Wifi Device", field: "router_name", width: 150},
+             {headerName: "Status", field: "status", width: 100},
+             
+             {headerName: "Latitude", field: "lat", width: 90},
+             {headerName: "Longitude", field: "long", width: 120},
+             {headerName: "Date", field: "date", width: 90},
+             
+             ];
+         
+             $scope.gridOptions = {
+                 columnDefs: columnDefs,
+                 rowData: null,
+                 groupUseEntireRow: false,
+                 groupKeys: ['mac_address','router_name'],
+                 groupAggFields: ['data_consumed','Duration'],
+                 groupIncludeFooter: true,
+                 groupColumnDef: {headerName: "Mac Address",
+                     field: "mac_address",
+                     width: 200,
+                     cellRenderer: {
+                         renderer: 'group',
+                         padding: 5
+                     }}
+             };
+             
+             var columnDefs1 = [{headerName: "IMEI", field: "imei", width: 1000}];
+             
+
+
+             $scope.gridOptions1 = {
+               columnDefs: columnDefs1,
+               rowData: null,
+               enableSorting: true             
+             };
+         
+             $timeout(function(){
+              // $scope.UserInfo();            
+             },1000)
+              
+             /*setInterval(function(){
+                $scope.UserInfo();
+             }, 30000);*/
+             
+             objectlength = 0;
+             loopcount = 0;
+             
+             $scope.counUserInfo = 0;
+             var usersArr = [];
+             var totalTime = 0;  
+             var totalSize = 0;
+             var totalhotspots = 0;
+             $scope.mapDataObj = {};
+
+             $scope.UserInfo = function() {
+
+           //while(objectlength == 0){
+              console.log("tesst");
+              console.log(objectlength);
+             var dbAnalytics = Parse.Object.extend("dashboardAnalytics");
+             var queryObject = new Parse.Query(dbAnalytics);
+              queryObject.limit(1000);
+             var tableData = [];
+             queryObject.skip($scope.counUserInfo);
+             queryObject.exists("mac_address");
+             queryObject.descending("objectId");
+             queryObject.descending("date");
+             queryObject.find({
+               success:function(results){
+                $scope.counUserInfo += results.length;
+                  
+                 console.log("results="+results.length);
+                 
+                 /*if(results) {
+                   $timeout(function(){
+                   $scope.showGroup(1);
+                   },1000);
+                 
+                 }*/
+                 
+                 var j = 0;
+                 for (var i = 0; i < results.length; i++) {
+                   var users = results[i];
+                   var mapObj = {"id": 1,"name": "Gianna Hodges","location": {"lat": 17,"lng": 78},"wifidevice":"uploading"};
+                   userObj =  users.toJSON();
+                   if(userObj.mac_address != "00:00:00:00:00:00"){
+         
+                    if ($.inArray(userObj.mac_address, usersArr) < 0) {   
+                           usersArr.push(userObj.mac_address); 
+                   }
+                   
+                   //dataconsumed
+                   userObj.data_consumed = parseInt(userObj.data_consumed/1024/1024, 10);
+                   totalSize = totalSize + userObj.data_consumed;
+                   //duration
+                   var date1 = new Date(userObj.createdAt);
+                   var date2 = new Date(userObj.updatedAt);
+                   var sec = (date2.getTime()/1000.0) - (date1.getTime()/1000.0);
+                   var minutes = Math.round(sec/60);
+                   userObj.Duration = minutes;
+                   totalTime = totalTime + minutes;
+         
+         
+                   //Hotspot Duration
+                   var timeEnd2 = new Date().getTime();
+                   var sec = (timeEnd2/1000.0) - (date2.getTime()/1000.0);
+                   var status = "InActive";
+                   if(sec < 15)
+                   {
+                         status = "Active";
+                         totalhotspots = totalhotspots + 1;
+                   }
+                   userObj.status = status;
+                   tableData.push(userObj); 
+                   mapObj.id = i;
+                   mapObj.name = userObj.mac_address;
+                   mapObj.location.lat = userObj.lat;                  
+                   mapObj.location.lng = userObj.long; 
+                   mapObj.wifidevice = userObj.router_name;                 
+                   mapData.push(mapObj);   
+                   
+
+                   if(userObj.lat != '0.0' && userObj.long != '0.0') {
+                     var temp = [];
+                     //mapGraphObj.title = 'Wifi Devices'; 
+                     //mapGraphObj.type = 'marker';  
+                     temp.lat = userObj.lat;                  
+                     temp.lon = userObj.long; 
+                     temp.title = userObj.router_name; 
+                     temp.html = userObj.router_name; 
+                     temp.zoom = 10; 
+                     //mapGraphObj.locations.push(temp);
+
+                     $scope.mapDataObj[userObj.router_name] = temp;
+                   }
+                                       
+                   }
+                 };
+                 
+             //$timeout(function(){
+               //$scope.UserInfo();           
+            // },300000)
+                 
+                // console.log(JSON.stringify(userObj.router_name));
+                // $('#cp_devices').text(totalhotspots);
+                 $('#cp_users').text(usersArr.length);
+                $('#cp_data').text("35.17 GB");
+                 //$('#cp_browsingTime').text(totalTime + " Mins");
+                 $scope.gridOptions.api.setRowData(tableData);
+
+                 if(results.length < 1000){
+                   $scope.hotSpotsLoad();
+                    return ;
+                 } else
+                  $scope.UserInfo();   
+
+
+               },
+               error: function(error) {
+               $timeout(function(){
+                // $scope.UserInfo();           
+               },30000)               
+                   // alert("Error: " + error.code + " " + error.message);
+               }
+         }); 
+
+
+
+
+
+          $scope.hotSpotsLoad = function(){
+
+             var hotspotObj = {};
+             var hotspotAnalytics = Parse.Object.extend("hotspot");
+             var hotspotObject = new Parse.Query(hotspotAnalytics);
+             var hotspotData = [];
+             hotspotObject.exists("imei");
+             hotspotObject.descending("objectId");
+             hotspotObject.find({
+               success:function(results){
+
+                 var hotspotArr = [];
+
+                 for (var i = 0; i < results.length; i++) {
+                   var hotspotDevice = results[i];
+                   hotspotObj =  hotspotDevice.toJSON();                   
+                   hotspotData.push(hotspotObj); 
+
+                  //console.log(hotspotObj);
+                  
+                  if($scope.mapDataObj[hotspotObj['imei']] != undefined){
+                      mapGraphObj.locations.push($scope.mapDataObj[hotspotObj['imei']]);
+                     // console.log($scope.mapDataObj[hotspotObj['imei']]);
+                  }
+                   $('#cp_devices').text(results.length);
+
+                 }
+                 $timeout(function(){
+                    $scope.showGroup(1);
+                 },1000);
+
+                $scope.gridOptions1.api.setRowData(hotspotData);
+               },
+               error: function(error) {
+               }
+         }); 
+    } 
+
+       // }
+    }        
+         
+         
+          $scope.UserInfo();  
+         
+         
+         //Google Maps Second Code Start
+         
+         
+         $scope.options = {
+         map: {
+         center: new google.maps.LatLng(17, 78),
+         zoom: 4,
+         mapTypeId: google.maps.MapTypeId.TERRAIN
+         },
+         };
+         
+         $scope.volcanoes = mapData;
+         
+         
+         //Google Maps Second Code End
+         
+         
+         
+         //Tabs JS Code Start
+         
+         $scope.tab = 3;         
+         $scope.setTab = function(newTab){         
+
+         $scope.tab = newTab;
+         };
+         
+         $scope.isSet = function(tabNum){
+         return $scope.tab === tabNum;
+         };
+         
+         //Tabs JS Code End
+         
+         $scope.showGroup = function(index) {
+          console.log(mapGraphObj.locations);
+         maplace[index] = new Maplace({
+             map_div: '#gmap' + index,
+             controls_type: 'list',
+             controls_on_map: true,
+             locations: mapGraphObj.locations,
+             view_all_text: mapGraphObj.title,
+             type: mapGraphObj.type,
+             force_generate_controls: true,
+             map_options: {
+                zoom: 8,
+                set_center: [12.9715987, 77.5945627],
+			}
+         }).Load();
+         google.maps.event.trigger(mapGraphObj, 'resize');
+         }
+         
+         });
+         module.controller("UserCtrl", function($scope, $http,$location,$timeout) {
+         
+             var mapData = [];
+                   var userObj = {};
+             
+            // var mapGraphData = [];
+             var maplace = [];
+             var mapGraphObj = {"title": "Group B","type": "marker","locations": []}
+             
+                 
+             var columnDefs = [
+             
+             {headerName: "Mac Address", field: "mac_address", width: 150},             
+             {headerName: "Data Consumed (KB)", field: "data_consumed", width: 150},
+             {headerName: "Duration (Minutes)", field: "Duration", width: 140},
+             {headerName: "Status", field: "status", width: 100},
+             
+             {headerName: "Latitude", field: "lat", width: 90},
+             {headerName: "Longitude", field: "long", width: 120},
+             ];
+         
+             $scope.gridOptions = {
+                 columnDefs: columnDefs,
+                 rowData: null,
+                 groupUseEntireRow: false,
+                 groupKeys: ['router_name'],
+                 groupAggFields: ['data_consumed','Duration'],
+                 groupIncludeFooter: true,
+                 groupColumnDef: {headerName: "Router Name",
+                     field: "router_name",
+                     width: 200,
+                     cellRenderer: {
+                         renderer: 'group',
+                         padding: 5
+                     }}
+             };
+         
+             $timeout(function(){
+               $scope.UserInfo();            
+             },1000)
+              
+             setInterval(function(){
+                //$scope.UserInfo();
+             }, 30000);
+             
+             $scope.UserInfo = function() {
+         
+             var dbAnalytics = Parse.Object.extend("dashboardAnalytics");
+             var queryObject = new Parse.Query(dbAnalytics);
+             var tableData = [];
+             queryObject.exists("mac_address");
+             queryObject.descending("objectId");
+             queryObject.descending("date");
+             queryObject.find({
+               success:function(results){
+console.log("results="+results.length);
+                 var usersArr = [];
+                 var totalTime = 0;  
+                 var totalSize = 0;
+                 var totalhotspots = 0;
+                 var j = 0;
+                 for (var i = 0; i < results.length; i++) {
+                   var users = results[i];
+                   var mapObj = {"id": 1,"name": "Gianna Hodges","location": {"lat": 17,"lng": 78},"wifidevice":"uploading"};
+                   userObj =  users.toJSON();
+                   if(userObj.mac_address != "00:00:00:00:00:00"){
+         
+                    if ($.inArray(userObj.mac_address, usersArr) < 0) {   
+                           usersArr.push(userObj.mac_address); 
+                   }
+                   
+                   //dataconsumed
+                   userObj.data_consumed = parseInt(userObj.data_consumed/1024/1024, 10);
+                   totalSize = totalSize + userObj.data_consumed;
+                   //duration
+                   var date1 = new Date(userObj.createdAt);
+                   var date2 = new Date(userObj.updatedAt);
+                   var sec = (date2.getTime()/1000.0) - (date1.getTime()/1000.0);
+                   var minutes = Math.round(sec/60);
+                   userObj.Duration = minutes;
+                   totalTime = totalTime + minutes;
+         
+         
+                   //Hotspot Duration
+                   var timeEnd2 = new Date().getTime();
+                   var sec = (timeEnd2/1000.0) - (date2.getTime()/1000.0);
+                   var status = "InActive";
+                   if(sec < 15)
+                   {
+                         status = "Active";
+                         totalhotspots = totalhotspots + 1;
+                   }
+                   userObj.status = status;
+                   tableData.push(userObj); 
+                   }
+                 };
+                 $scope.gridOptions.api.setRowData(tableData);
+               },
+               error: function(error) {
+                   // alert("Error: " + error.code + " " + error.message);
+               }
+         }); 
+         
+         }        
+         
+         });
+         
+      </script>
+   </body>
+</html>

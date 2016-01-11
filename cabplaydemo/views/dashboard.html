@@ -1,0 +1,70 @@
+<div class="page page-dashboard" data-ng-controller="DashboardCtrl">
+    <div class="row">
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="box-icon bg-success">
+                    <i class="fa fa-taxi"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2">{{hotspotcount}}</p>
+                    <p class="text-muted"><span data-i18n="Active Hotspots">Active Hotspots</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="box-icon bg-info">
+                    <i class="fa fa-users"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2">{{usercount}}</p>
+                    <p class="text-muted"><span data-i18n="Total users">Total users</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="box-icon bg-warning">
+                    <i class="fa fa-cloud-download"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2" id="cp_data">{{hotspotdata}}</p>
+                    <p class="text-muted"><span data-i18n="Total Data Usage">Total Data Usage</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-xsm-6">
+            <div class="panel mini-box">
+                <span class="box-icon bg-danger">
+                    <i class="fa fa-mobile"></i>
+                </span>
+                <div class="box-info">
+                    <p class="size-h2" id="cp_browsingTime">{{totalduration}}</p>
+                    <p class="text-muted"><span data-i18n="Total Browsing Time ">Total Browsing Time</span></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="panel panel-default col-md-12" style="padding:5px;">
+<div class="panel-heading"><strong>Campaign Activity</strong> <strong class="pull-right tableMinMax minimize"><i class="fa fa-minus"></i></strong></div>
+    <table id="adcampaigns" class="table" cellspacing="0" width="100%">
+
+    </table>
+
+   </div>
+    
+<div class="panel panel-default col-md-12" style="padding:5px;">
+<div class="panel-heading"><strong>Wifi Usage Details</strong> <strong class="pull-right tableMinMax minimize"><i class="fa fa-minus"></i></strong></div>
+    <table id="sessiontable" class="table" cellspacing="0" width="100%">
+
+    </table>
+
+   </div>
+
+
+
+
+</div>    
+    
